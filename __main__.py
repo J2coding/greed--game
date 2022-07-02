@@ -2,6 +2,7 @@ import os
 import random
 import pyray as pr
 import apt_pkg
+import turtle
 
 
 from game.casting.actor import Actor
@@ -56,7 +57,8 @@ def main():
     robot.set_text("#")
     robot.set_font_size(FONT_SIZE)
     robot.set_color(WHITE)
-    robot.set_position(position)    
+    robot.set_position(position)
+    
     cast.add_actor("robots", robot)
 
     
